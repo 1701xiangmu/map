@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			/*联系我们*/
+
+	   .my-map {
+	    width: 690px;
+	    height: 290px;
+	    float: left;
+	    border: 5px solid #FFFFFF;
+	    margin-top: 60px; }
+	     .my-map #mapContainer {
+	      width: 690px;
+	      height: 290px; }
+ 
+
+		.my-map .icon-cir-red {
+		  background-position: -11px -5px;
+		}
+		
+		.my-map .icon-cir {
+		  height:28px;
+		  width: 28px;
+		}
+/*http://lbs.amap.com/console/public/show/marker.png*/
+.my-map .icon {
+  background: url(images/biaoji.png) no-repeat;
+}
+
+		</style>
+	</head>
+	<body>
+		<div id="wrap" class="my-map">
+			<div id="mapContainer"></div>
+		</div>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>		
+		<script src="http://webapi.amap.com/maps?v=1.3&key=8325164e247e15eea68b59e89200988b"></script>
+		<script type="text/javascript" src="js/platformIntroMap.js" ></script>
+	</body>
+</html>
